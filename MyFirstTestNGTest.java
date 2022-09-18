@@ -26,7 +26,9 @@ public class MyFirstTestNGTest {
 	WebDriver driver;
 
 	
-//	@Test (groups = "Smoke", dependsOnGroups = "Regression")
+
+
+//	@Test (groups = "Regression")
 	public void google_search_test() throws InterruptedException {
 		driver.get("https://www.panamacompra.gob.pa/Inicio/#/");
 	
