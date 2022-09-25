@@ -11,7 +11,7 @@ import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
 import java.util.List;
 import java.util.Random;
-
+// Hello 
 import org.openqa.selenium.By;
 import org.openqa.selenium.ElementNotInteractableException;
 import org.openqa.selenium.JavascriptExecutor;
@@ -33,9 +33,9 @@ public class MyFirstTestNGTest {
 		driver.get("https://www.panamacompra.gob.pa/Inicio/#/");
 	
 		try {
-		driver.findElement(By.xpath("//button[text()=\" Iniciar sesión\"]")).click();
+		driver.findElement(By.xpath("//button[text()=\" Iniciar sesiÃ³n\"]")).click();
 		} catch (ElementNotInteractableException e) {
-			driver.findElement(By.xpath("//button[text()=\" Iniciar sesión\"]")).click();
+			driver.findElement(By.xpath("//button[text()=\" Iniciar sesiÃ³n\"]")).click();
 		}
 		Thread.sleep(5000);
 	}
